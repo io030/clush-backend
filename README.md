@@ -25,7 +25,7 @@
 
 ### 프로젝트 구조
 
-!! port - 8090 !!
+!! server.port = 8090 !!
 
 사용한 의존성
 
@@ -378,7 +378,7 @@ mysql 실행 후 root 계정으로 로그인 이 후 아래 쿼리문을 통해 
     
 ### Spring
 
-1. Github를 통해 프로젝트 다운 후 Intellij 실행
+1. Github를 통해 프로젝트 복제 후 Intellij를 통해 실행
 2. 우측 Gradle 탭을 클릭
 3. Tasks - build 이동 후 bootjar 스크립트 더블 클릭하여 실행
 4. 터미널을 통해 ~\ClushBackend\build\libs 경로로 이동
