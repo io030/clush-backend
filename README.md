@@ -375,6 +375,8 @@ mysql 실행 후 root 계정으로 로그인 이 후 아래 쿼리문을 통해 
     grant all privileges on clush.* to 'clush_test'@'localhost';
 
     FLUSH PRIVILEGES;
+
+스프링 부트 내부의 data.sql을 통해 프로젝트 실행 시 데이터가 자동으로 추가됨 , 실행 시 매번 초기화되는 구조로 테스트 환경을 동일하게 유지시킴
     
 ### Spring
 
